@@ -29,11 +29,37 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "eed72031-564c-4a87-b91e-85f13b5d2f3c",
             "zIndex": -1,
+            "id": "eed72031-564c-4a87-b91e-85f13b5d2f3c",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 956,
+              "y": 540.0000000000002
+            },
+            "size": {
+              "width": 170,
+              "height": 160
+            },
+            "attrs": {
+              "label": {
+                "text": "Interner Service für den Versand OTT"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "zIndex": -1,
+            "id": "42facf12-d325-422f-a7a8-40379a7df08c",
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Interner Service für den Versand OTT",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
@@ -1671,20 +1697,14 @@
                 "y": 500
               },
               {
+                "x": 820,
+                "y": 540
+              },
+              {
                 "x": 870,
                 "y": 560
               }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            ]
           },
           {
             "position": {
