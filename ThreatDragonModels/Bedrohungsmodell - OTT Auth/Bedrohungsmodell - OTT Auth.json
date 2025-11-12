@@ -41,6 +41,32 @@
           },
           {
             "position": {
+              "x": 1136,
+              "y": 410
+            },
+            "size": {
+              "width": 128,
+              "height": 60
+            },
+            "attrs": {
+              "label": {
+                "text": "Interner Service für den Versand OTT"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "42facf12-d325-422f-a7a8-40379a7df08c",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Interner Service für den Versand OTT",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
               "x": 12,
               "y": 53
             },
