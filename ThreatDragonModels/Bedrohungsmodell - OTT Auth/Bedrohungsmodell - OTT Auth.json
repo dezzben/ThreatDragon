@@ -657,13 +657,6 @@
               "isPublicNetwork": false,
               "handlesCardPayment": null,
               "handlesGoodsOrServices": null
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -797,7 +790,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Other Mobile\nPhone OTT\nService"
+                "text": "Allsecure Mobile Phone OTT Service "
               },
               "body": {
                 "stroke": "#333333",
@@ -892,9 +885,9 @@
             },
             "id": "166a4763-016a-486b-92df-a86adc8bab82",
             "data": {
-              "name": "Other Mobile\nPhone OTT\nService",
+              "name": "Allsecure Mobile Phone OTT Service ",
               "description": "",
-              "type": "tm.Flow",
+              "type": "tm.Process",
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -904,6 +897,13 @@
               "protocol": "",
               "isEncrypted": false,
               "isPublicNetwork": false
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
