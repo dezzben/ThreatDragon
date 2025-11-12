@@ -20,32 +20,6 @@
         "cells": [
           {
             "position": {
-              "x": 956,
-              "y": 540.0000000000002
-            },
-            "size": {
-              "width": 170,
-              "height": 160
-            },
-            "attrs": {
-              "label": {
-                "text": "Interner Service für den Versand OTT"
-              }
-            },
-            "visible": true,
-            "shape": "trust-boundary-box",
-            "zIndex": -1,
-            "id": "42facf12-d325-422f-a7a8-40379a7df08c",
-            "data": {
-              "type": "tm.BoundaryBox",
-              "name": "Interner Service für den Versand OTT",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            }
-          },
-          {
-            "position": {
               "x": 190,
               "y": -409.99999999999994
             },
@@ -55,8 +29,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "11212316-abff-478e-9263-bafaca0725df",
             "zIndex": -1,
+            "id": "11212316-abff-478e-9263-bafaca0725df",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -1852,6 +1826,57 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Email",
+              "description": "signiert und verschlüsselt ",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Email"
+            ],
+            "id": "303fd878-cc62-449f-8656-d8f2272ad4ac",
+            "source": {
+              "x": 1050,
+              "y": 320
+            },
+            "target": {
+              "cell": "8b953bd1-66f3-4c49-b8a1-74238d0702f2",
+              "port": "33de4daa-c32a-4d97-9166-fd8d94940769"
+            },
+            "vertices": [
+              {
+                "x": 1130,
+                "y": 320
+              }
+            ]
+          },
+          {
             "position": {
               "x": 410,
               "y": -174
@@ -2241,6 +2266,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -2324,7 +2350,6 @@
               ]
             },
             "id": "be28b080-3fe1-48c3-abba-97c7252001c7",
-            "zIndex": 14,
             "data": {
               "type": "tm.Actor",
               "name": "Anbieter Krypto \nStandard",
@@ -2358,6 +2383,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 15,
             "ports": {
               "groups": {
                 "top": {
@@ -2441,7 +2467,6 @@
               ]
             },
             "id": "3659166d-d4cc-4a49-8c7d-03b918d2462d",
-            "zIndex": 15,
             "data": {
               "type": "tm.Process",
               "name": "SIEM",
@@ -2479,8 +2504,8 @@
               "y": 260
             },
             "target": {
-              "x": 370,
-              "y": 410
+              "x": 960,
+              "y": 260
             },
             "vertices": [
               {
@@ -2498,8 +2523,145 @@
               {
                 "x": 180,
                 "y": 60
+              },
+              {
+                "x": 710,
+                "y": 220
+              },
+              {
+                "x": 910,
+                "y": 630
+              },
+              {
+                "x": 1080,
+                "y": 750
+              },
+              {
+                "x": 1220,
+                "y": 490
+              },
+              {
+                "x": 1400,
+                "y": 200
               }
             ]
+          },
+          {
+            "position": {
+              "x": 1153,
+              "y": 266
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Management"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "92ea8e86-f69e-45a7-8d50-52e6ff9bcd6e"
+                },
+                {
+                  "group": "right",
+                  "id": "1713135e-d476-486e-a7c2-8b6368b03282"
+                },
+                {
+                  "group": "bottom",
+                  "id": "377b5023-b01f-4ff8-a100-9a4514729b82"
+                },
+                {
+                  "group": "left",
+                  "id": "33de4daa-c32a-4d97-9166-fd8d94940769"
+                }
+              ]
+            },
+            "id": "8b953bd1-66f3-4c49-b8a1-74238d0702f2",
+            "zIndex": 17,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Management",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
           }
         ],
         "version": "2.5.0",
