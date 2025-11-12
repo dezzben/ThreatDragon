@@ -324,7 +324,7 @@
             },
             "attrs": {
               "text": {
-                "text": "2-Faktor-Authe\nntifizierungsdi\nenst\nmit Standard Software"
+                "text": "2-Faktor-Authe\nntifizierungsdi\nenst"
               },
               "body": {
                 "stroke": "#333333",
@@ -419,8 +419,8 @@
             },
             "id": "94f68ce7-aa88-45a4-ba41-c0b62d6a959c",
             "data": {
-              "name": "2-Faktor-Authe\nntifizierungsdi\nenst\nmit Standard Software",
-              "description": "",
+              "name": "2-Faktor-Authe\nntifizierungsdi\nenst",
+              "description": "mit Standard Software",
               "type": "tm.Process",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -431,17 +431,6 @@
               "protocol": "",
               "isEncrypted": false,
               "isPublicNetwork": false
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "boundary",
-                "button-remove",
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
